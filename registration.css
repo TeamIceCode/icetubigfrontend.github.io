@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #registration-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+  }
+  
+  #registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #registration-form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  #registration-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  #registration-form input[type="text"],
+  #registration-form input[type="email"],
+  #registration-form input[type="number"],
+  #registration-form select,
+  #registration-form input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  #registration-form input[type="text"]:focus,
+  #registration-form input[type="email"]:focus,
+  #registration-form input[type="number"]:focus,
+  #registration-form select:focus,
+  #registration-form input[type="password"]:focus {
+    outline: none;
+    border: 1px solid #0066cc;
+  }
+  
+  #registration-form button[type="submit"] {
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #registration-form button[type="submit"]:hover {
+    background-color: #004b8c;
+  }
+  
+  #registration-form input[type="tel"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  #registration-form #mobile-number {
+    display: flex;
+  }
+  
+  #registration-form #mobile-number select {
+    flex: 1;
+    margin-right: 5px;
+  }
+  
+  #registration-form #mobile-number input[type="tel"] {
+    flex: 2;
+  }
+  
+  #success-msg {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    color: #155724;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #registration-form {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    #registration-form label {
+      font-size: 14px;
+    }
+  
+    #registration-form input[type="text"],
+    #registration-form input[type="email"],
+    #registration-form input[type="number"],
+    #registration-form select,
+    #registration-form input[type="password"],
+    #registration-form input[type="tel"] {
+      font-size: 14px;
+    }
+  
+    #registration-form button[type="submit"] {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    #registration-form #mobile-number input[type="tel"] {
+      flex: 3;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    #registration-form label {
+      font-size: 12px;
+   
+      #registration-form input[type="text"],
+      #registration-form input[type="email"],
+      #registration-form input[type="number"],
+      #registration-form select,
+      #registration-form input[type="password"],
+      #registration-form input[type="tel"] {
+      font-size: 12px;
+      }
+    }
+      
+      #registration-form button[type="submit"] {
+      font-size: 12px;
+      padding: 6px;
+      }
+      
+      #registration-form #mobile-number input[type="tel"] {
+      flex: 4;
+      }
+      }
+      
+      @media only screen and (max-width: 320px) {
+      #registration-form label {
+      font-size: 10px;
+      }
+      
+      #registration-form input[type="text"],
+      #registration-form input[type="email"],
+      #registration-form input[type="number"],
+      #registration-form select,
+      #registration-form input[type="password"],
+      #registration-form input[type="tel"] {
+      font-size: 10px;
+      padding: 8px;
+      }
+      
+      #registration-form button[type="submit"] {
+      font-size: 10px;
+      padding: 4px;
+      }
+      
+      #registration-form #mobile-number input[type="tel"] {
+      flex: 5;
+      }
+      }
