@@ -1,3 +1,17 @@
+.logo {
+    height: 3rem;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.2em;
+    font-weight:inherit;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: blue;
+}
+
 :root{
     --gra: linear-gradient(45deg, cyan, royalblue);
 }
